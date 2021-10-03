@@ -92,7 +92,7 @@ public class Project_1 {
             }
         }
 
-        System.out.println("La suma final es de: " + suma + "$");
+        //System.out.println("La suma final es de: " + suma + "$");
 
 
     }
