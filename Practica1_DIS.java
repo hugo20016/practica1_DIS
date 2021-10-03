@@ -99,7 +99,7 @@ public class Project_1 {
 
     //Jose Roma - Metodo Mostrar Entradas
     private static void mostrarEntradas(Datos[] datos_csv) {
-        //System.out.println("Las entradas con un importe entre 1000$ y 10000$ son: ");
+        System.out.println("Las entradas con un importe entre 1000$ y 10000$ son: ");
         for(int i = 0; i < datos_csv.length; i++){
             if(datos_csv[i].getData_value() >= 1000 && datos_csv[i].getData_value() <= 10000){
                 System.out.println("Referencia: " + datos_csv[i].getSeries_reference() + " / Importe = " + datos_csv[i].getData_value());
