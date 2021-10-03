@@ -100,6 +100,11 @@ public class Project_1 {
             System.out.println("4.- Salir");
             System.out.println("==========================================================");
 
+            try{
+                eleccion = lector.nextInt();
+            }catch (Exception e){
+                System.out.println("Introduzca un caracter valido");
+            }
 
             switch (eleccion){
                 case 1:
