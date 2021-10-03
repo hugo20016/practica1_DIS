@@ -3,12 +3,15 @@ package com.Prc;
 // Librerias
 
 import com.opencsv.CSVWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.text.ParseException;
+import java.util.Scanner;
+
 
 public class Project_1 {
     // RAMA 1
@@ -81,8 +84,47 @@ public class Project_1 {
         System.out.println("Archivo .csv generado");
     }
 
+    // Carmela Regife - Main
     public static void main(String[] args) {
 
+        Datos[] datos_csv = new Datos[18025];
+        leerCSV(datos_csv);
+
+        int eleccion = 0;
+        do{
+            System.out.println("==========================================================");
+            System.out.println("Elija una opcion");
+            System.out.println("1.- Buscar operacion por fecha");
+            System.out.println("2.- Mostrar entradas entre 1000 y 10000 ");
+            System.out.println("3.- Guardar");
+            System.out.println("4.- Salir");
+            System.out.println("==========================================================");
+
+
+            switch (eleccion){
+                case 1:
+                   // buscarOperacion(datos_csv);
+                    break;
+                case 2:
+                   // mostrarEntradas(datos_csv);
+                    break;
+                case 3:
+                    guardarCSV(datos_csv);
+                    break;
+                case 4:
+                    System.out.println("Saliendo del programa");
+                    break;
+                default:
+                    System.out.println("Introduzca un numero entre 1 y 4. Gracias.");
+                    break;
+            }
+        }while(eleccion != 4);
+
+
     }
+
+
+
+}
 }
 
