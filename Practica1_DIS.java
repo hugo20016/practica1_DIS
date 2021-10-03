@@ -104,6 +104,7 @@ public class Project_1 {
                 eleccion = lector.nextInt();
             }catch (Exception e){
                 System.out.println("Introduzca un caracter valido");
+
             }
 
             switch (eleccion){
