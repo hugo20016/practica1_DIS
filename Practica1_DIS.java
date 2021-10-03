@@ -62,6 +62,43 @@ public class Project_1 {
             }
         }
     }
+    //Jose Roma - Buscar Operación
+    public static void buscarOperacion(Datos[] datos_array) throws ParseException {
+        SimpleDateFormat formato_fecha = new SimpleDateFormat("yyyy.MM");
+        String fecha_inicial;
+        String mes;
+        String anio;
+
+        do{
+            lector.nextLine();
+
+            System.out.println("Introduzca la fecha: mm/YYYY"); // 04/2001
+            fecha_inicial = lector.nextLine();
+            mes = fecha_inicial.substring(0,2);
+            anio = fecha_inicial.substring(3);
+            if(fecha_inicial.length() != 7 || fecha_inicial.charAt(2) != '/' ||  (Integer.parseInt(mes) < 0 || Integer.parseInt(mes) > 13) || (Integer.parseInt(anio) < 0 || (Integer.parseInt(anio) > 2022))){
+                System.out.println("Introduzca una fecha valida");
+            }
+
+        }while(fecha_inicial.length() != 7 || fecha_inicial.charAt(2) != '/' ||  (Integer.parseInt(mes) < 0 || Integer.parseInt(mes) > 13) || (Integer.parseInt(anio) < 0 || (Integer.parseInt(anio) > 2022)));
+
+        String fecha = anio + "." + mes;
+        Date fecha_final = format.parse(fecha);
+
+        float suma = 0;
+        for(int i = 0; i < datos_array.length; i++){
+            if(fecha_final.equals(datos_array[i].getPeriod())){
+                suma = suma + datos_array[i].getData_value();
+            }
+        }
+
+        System.out.println("La suma final es de: " + suma + "$");
+
+
+    }
+
+
+
 
     // Hugo Hernandez - metodo guardar en CSV
     private static void guardarCSV(Datos[] datos_csv) throws IOException {
