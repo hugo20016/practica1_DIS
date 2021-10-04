@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9833ade0-34b3-470f-bae8-bda21315d473" name="Changes" comment="Creado el Metodo De Mostrar Las Entradas">
+    <list default="true" id="9833ade0-34b3-470f-bae8-bda21315d473" name="Changes" comment="5 commit, cambio de README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica1_DIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practica1_DIS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,39 +10,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="master" />
-              </list>
-            </value>
-          </entry>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/develop" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -60,20 +26,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,42 +52,7 @@
       <option name="project" value="LOCAL" />
       <updated>1633191620779</updated>
     </task>
-    <task id="LOCAL-00003" summary="Creado el Metodo De Buscar Operacion">
-      <created>1633268555273</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1633268555273</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Creado el Metodo De Buscar Operacion">
-      <created>1633268679494</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1633268679494</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Creado el Metodo De Buscar Operacion">
-      <created>1633268758684</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1633268758684</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Creado el Metodo De Buscar Operacion">
-      <created>1633268988460</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1633268988460</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Creado el Metodo De Mostrar Las Entradas">
-      <created>1633269166169</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1633269166169</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,8 +70,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Frist commit, inicio de proyecto" />
     <MESSAGE value="5 commit, cambio de README.md" />
-    <MESSAGE value="Creado el Metodo De Buscar Operacion" />
-    <MESSAGE value="Creado el Metodo De Mostrar Las Entradas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado el Metodo De Mostrar Las Entradas" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 commit, cambio de README.md" />
   </component>
 </project>
