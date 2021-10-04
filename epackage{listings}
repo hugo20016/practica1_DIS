@@ -1,0 +1,72 @@
+[33mcommit 7d54ea015da1096e66b3a1b08ff0bafc76d9f34c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: f6ab9dd 80a4896
+Author: Hugo Hernandez <hugo20016@gmail.com>
+Date:   Sat Oct 2 18:36:14 2021 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 80a4896c46c051ae1b3accad7ea25df799b8bdb3[m
+Author: hugo20016 <90892100+hugo20016@users.noreply.github.com>
+Date:   Sat Oct 2 18:35:03 2021 +0200
+
+    Delete Project1_DIS.java
+
+[33mcommit 209a28ec5e6084ab1be5022d672dd4192fe84d48[m
+Author: hugo20016 <90892100+hugo20016@users.noreply.github.com>
+Date:   Sat Oct 2 18:34:56 2021 +0200
+
+    Delete Datos_csv.java
+
+[33mcommit f6ab9dd363e3cb3e2cb3f57540f1b1a8e369af9e[m
+Author: Hugo Hernandez <hugo20016@gmail.com>
+Date:   Sat Oct 2 18:31:57 2021 +0200
+
+    7 commit workspace
+
+[33mcommit c6b74f0867c98c94bef06852a74a82f5d93ec9d6[m
+Author: Hugo Hernandez <hugo20016@gmail.com>
+Date:   Sat Oct 2 18:26:42 2021 +0200
+
+    6 commit, archivos de configuración
+
+[33mcommit 7722a7bc5d3b617970e85b733f25c8cd4feeb4ba[m
+Author: Hugo Hernandez <hugo20016@gmail.com>
+Date:   Sat Oct 2 18:24:30 2021 +0200
+
+    6 commit, creación de archivos de práctica
+
+[33mcommit cb6d927dcc2bb0892283d54388e8e45f98594447[m
+Author: Hugo Hernandez <hugo20016@gmail.com>
+Date:   Sat Oct 2 18:20:20 2021 +0200
+
+    5 commit, cambio de README.md
+
+[33mcommit aea69a54fda2a6fbd32ae12b28c34c584efc7cbf[m
+Author: Ana Schleissner <7904007@alumnos.ufv.es>
+Date:   Sat Oct 2 18:18:13 2021 +0200
+
+    4 commit
+
+[33mcommit ed6e4ecd3c7e8d9617e79f279828e6f867f36db3[m
+Author: Carmela Regife <c.regifez.sanchez@gmail.com>
+Date:   Sat Oct 2 18:13:01 2021 +0200
+
+    cambio readme CR
+
+[33mcommit 613664369ab72c9f63975533b52b1ba0cf76f4f4[m
+Author: Jose Roma <mydyck99@gmail.com>
+Date:   Sat Oct 2 18:05:01 2021 +0200
+
+    Actualizacion Nombre Jose Roma
+
+[33mcommit 04c8f271ea900e172802214f3b39d282810a5e2d[m
+Author: hugo20016 <90892100+hugo20016@users.noreply.github.com>
+Date:   Sat Oct 2 18:00:51 2021 +0200
+
+    Update README.md
+
+[33mcommit 41b3587249ffebd0689ffd9d3abe05010db55f03[m
+Author: hugo20016 <90892100+hugo20016@users.noreply.github.com>
+Date:   Thu Sep 30 12:44:04 2021 +0200
+
+    Initial commit
